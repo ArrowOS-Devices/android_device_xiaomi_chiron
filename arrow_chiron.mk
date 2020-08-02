@@ -24,6 +24,8 @@ $(call inherit-product, device/xiaomi/chiron/device.mk)
 # Inherit some common Arrow stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
 
+DEVICE_MAINTAINER := Perfectime94
+
 PRODUCT_NAME := arrow_chiron
 PRODUCT_DEVICE := chiron
 PRODUCT_BRAND := Xiaomi
